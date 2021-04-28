@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace WebApplication1.Models
 {
-    class Category
+    public class Category
     {
         //data annotation call key
         [Key]

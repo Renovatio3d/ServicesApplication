@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using WebApplication1.Models;
 
 namespace WebApplication1.DataAccess.Data
 {
@@ -12,5 +13,7 @@ namespace WebApplication1.DataAccess.Data
             : base(options)
         {
         }
+
+        public DbSet<Category> Category { get; set; }
     }
 }
